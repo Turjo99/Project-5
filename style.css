@@ -1,0 +1,165 @@
+/* Common Styles */
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+.margin-top {
+  margin-top: 30px;
+}
+.center {
+  text-align: center;
+}
+
+/* Header Section Style Starts */
+header {
+  background-color: #161616;
+  width: 90%;
+  margin: 70px auto 50px auto;
+  padding-top: 30px;
+  border-radius: 15px;
+}
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: aliceblue;
+}
+.info h1 {
+  font-size: 70px;
+  font-weight: 600;
+}
+.btn {
+  padding: 15px;
+  background-color: teal;
+  border-radius: 5px;
+  width: 100px;
+  text-align: center;
+}
+.btn:hover {
+  transition: 0.5s;
+  background-color: tomato;
+}
+.btn a {
+  text-decoration: none;
+  color: aliceblue;
+}
+.header-img img {
+  width: 581px;
+}
+/* main section starts */
+main {
+  width: 100%;
+  margin: auto;
+}
+.contents {
+  display: flex;
+  justify-content: space-evenly;
+}
+.link {
+  padding: 20px 40px 20px 40px;
+  background-color: aliceblue;
+  color: black;
+  margin: 5px;
+  border-radius: 3px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.links {
+  display: flex;
+  flex-direction: column;
+  background-color: #161616;
+  padding: 50px;
+  margin-right: 24px;
+  text-align: center;
+}
+
+.links a {
+  text-decoration: none;
+}
+
+.grid-contents {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+}
+.article {
+  border: 1px grey solid;
+}
+.article img {
+  margin-bottom: 15px;
+}
+.article h5 {
+  font-size: 16px;
+  padding: 10px;
+  border: 1px solid gray;
+  width: 20%;
+  margin-left: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+.article h4 {
+  font-size: 20px;
+  line-height: 30px;
+  margin: 20px;
+  margin-right: 0;
+}
+.icons {
+  display: flex;
+  margin: 20px;
+}
+.icon {
+  margin-right: 30px;
+}
+.hidden {
+  margin-top: 30px;
+  display: none;
+}
+/* Main Style Ends */
+
+/* footer Style Starts */
+footer {
+  background-color: #161616;
+  height: 400px;
+  margin-top: 50px;
+}
+hr {
+  width: 70%;
+  margin: 40px auto 40px auto;
+  border-bottom: 1px gray solid;
+}
+.footer-head {
+  color: aliceblue;
+  font-size: 30px;
+  font-family: 600;
+  padding-top: 120px;
+}
+.footer-links {
+  display: flex;
+  justify-content: center;
+  width: 67%;
+  margin: 40px auto 0 auto;
+}
+footer li {
+  list-style: none;
+  margin-right: 30px;
+  padding-bottom: 20px;
+}
+footer a {
+  text-decoration: none;
+  color: #b9b9b9;
+  font-size: 16px;
+}
+.social-links {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+.social-links a {
+  margin-right: 30px;
+}
+.social-links i {
+  color: #b9b9b9;
+}
