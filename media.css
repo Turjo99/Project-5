@@ -1,5 +1,36 @@
+/* For Mobiles */
+@media only screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+  .links {
+    flex-direction: column;
+  }
+  .contents {
+    flex-direction: column;
+    align-items: center;
+  }
+  .grid-contents {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+  }
+  .links {
+    color: black;
+    background-color: aliceblue;
+  }
+  footer {
+    height: auto;
+  }
+  .footer-links {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
 /* For Tablets */
-@media only screen and (max-width: 992px) and (min-width: 768px) {
+
+@media only screen and (max-width: 992px) and (min-width: 769px) {
   header {
     padding: 20px;
     /* width: 100%; */
