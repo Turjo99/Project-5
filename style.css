@@ -71,13 +71,31 @@ main {
   display: flex;
   flex-direction: column;
   background-color: #161616;
-  padding: 50px;
+  padding: 40px;
   margin-right: 24px;
   text-align: center;
+  color: aliceblue;
+  margin-bottom: 40px;
+}
+.link-blog {
+  padding: 20px 40px 20px 40px;
+  background-color: teal;
+  margin: 5px;
+  border-radius: 3px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.link-blog a {
+  color: aliceblue;
+}
+
+.links .link {
+  /* background-color: #b9b9b9; */
 }
 
 .links a {
   text-decoration: none;
+  /* color: aliceblue; */
 }
 
 .grid-contents {
@@ -116,6 +134,57 @@ main {
 .hidden {
   margin-top: 30px;
   display: none;
+}
+
+/* Groups Page Style Starts */
+
+.link-group {
+  padding: 20px 40px 20px 40px;
+  background-color: teal;
+  margin: 5px;
+  border-radius: 3px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.link-group a {
+  color: aliceblue;
+}
+/* Upcoming Match File Styles Starts */
+#upcoming {
+  padding: 20px 40px 20px 40px;
+  background-color: teal;
+  margin: 5px;
+  border-radius: 3px;
+  font-size: 20px;
+  font-weight: 600;
+}
+#upcoming a {
+  color: aliceblue;
+}
+.matches {
+  border: #b9b9b9 1px solid;
+  padding: 30px;
+  border-radius: 5px;
+}
+.match {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 30px;
+}
+.match span {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 10px;
+}
+.matches h3 {
+  font-size: 23px;
+}
+.matches h3,
+p {
+  margin-top: 20px;
+
+  /* Upcoming Match File Styles Ends */
 }
 /* Main Style Ends */
 
