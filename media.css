@@ -1,5 +1,18 @@
 /* For Mobiles */
 @media only screen and (max-width: 768px) {
+  header {
+    width: 100%;
+  }
+  .info {
+    width: 80%;
+  }
+  .info h1 {
+    font-size: 40px;
+  }
+  .header-img img {
+    width: 100%;
+    margin: 30px;
+  }
   .container {
     flex-direction: column;
   }
