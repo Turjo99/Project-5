@@ -13,7 +13,9 @@ body {
   text-align: center;
 }
 
-/* Header Section Style Starts */
+/* -------------
+Header Section Style Starts
+---------------- */
 header {
   background-color: #161616;
   width: 90%;
@@ -48,10 +50,36 @@ header {
 }
 .header-img img {
   width: 581px;
+  animation-name: bounce;
+  animation-duration: 2s;
+  position: relative;
 }
-/* main section starts */
+@keyframes bounce {
+  0% {
+    right: -200px;
+    opacity: 0;
+  }
+  70% {
+    right: 60px;
+  }
 
-/* Index File Styles Starts */
+  100% {
+    right: 0px;
+    opacity: 1;
+  }
+}
+
+/*-------------
+ Header Section Style Ends
+ --------------- */
+
+/*------------ 
+Main Style Starts
+-------------- */
+
+/*-------------
+ Index Page Style Starts
+ -------------- */
 main {
   width: 100%;
   margin: auto;
@@ -91,13 +119,8 @@ main {
   color: aliceblue;
 }
 
-.links .link {
-  /* background-color: #b9b9b9; */
-}
-
 .links a {
   text-decoration: none;
-  /* color: aliceblue; */
 }
 
 .grid-contents {
@@ -138,9 +161,13 @@ main {
   display: none;
 }
 
-/* Index File Style End */
+/* -------------
+Index Page Style Ends
+--------------- */
 
-/* Groups Page Style Starts */
+/* -------------
+Groups Page Style Starts 
+-----------------*/
 .groups {
   width: 290px;
   border: 1px solid gray;
@@ -176,8 +203,13 @@ main {
   color: aliceblue;
 }
 
-/* Groups Page Style Ends */
-/* Upcoming Match File Styles Starts */
+/* 
+--------------
+Groups Page Style Ends
+--------------- */
+/*------------------
+ Upcoming Match Match Styles Starts
+ ------------------- */
 #upcoming {
   padding: 20px 40px 20px 40px;
   background-color: teal;
@@ -212,11 +244,17 @@ main {
 p {
   margin-top: 20px;
 
-  /* Upcoming Match File Styles Ends */
+  /*------------------
+ Upcoming Match Match Style Ends
+ ------------------- */
 }
-/* Main Style Ends */
+/*------------ 
+Main Style Ends
+-------------- */
 
-/* footer Style Starts */
+/*--------------
+ footer Style Starts
+ -------------- */
 footer {
   background-color: #161616;
   height: 400px;
@@ -260,3 +298,6 @@ footer a {
 .social-links i {
   color: #b9b9b9;
 }
+/*--------------
+ footer Style Ends
+ -------------- */
